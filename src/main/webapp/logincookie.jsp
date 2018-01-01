@@ -12,7 +12,6 @@
     String idcheck = request.getParameter("idcheck");
 
     if (idcheck == null) {
-
     } else {
         Cookie cookie = new Cookie("save_id", id);
         cookie.setMaxAge(60 * 60 * 24);
